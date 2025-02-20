@@ -7,6 +7,7 @@ In this article, we'll walk you through an automated workflow created using n8n,
 Our setup involves hosting the n8n community edition as Docker container on a self hosted Coolify on ec2 instances.
 
 Workflow image
+![workflow-image](https://github.com/user-attachments/assets/0427cea2-e6a2-4bfe-b77a-5d433531d869)
 
 Step 1: Schedule Trigger
 The workflow starts with a Schedule Trigger, which initiates the process at a predetermined time every day. This ensures that the workflow runs automatically without any manual intervention, fetching the content to be posted for the day.
